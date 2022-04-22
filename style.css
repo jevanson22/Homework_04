@@ -67,6 +67,7 @@ h6 {
     font-style: italic;
     font-weight: 100;
     border-top: 1px solid black;
+    margin: 0%;
 }
 
 div {
@@ -74,6 +75,7 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin: 0%;
 }
 
 ol .questions {
@@ -104,10 +106,20 @@ li {
     font-style: italic;
     font-size: small;
     width: 50%;
+    padding: 0%;
 }
 
 .hidden {
     visibility:hidden;
+}
+
+.answer {
+    background-color: purple;
+    margin: 10px, 5px;
+    padding: 5px;
+    color: white;
+    border: 3px solid purple;
+    border-radius: 5px;
 }
 
 #viewHighScore {
@@ -147,7 +159,7 @@ li {
     align-items: left;
 }
 
-#answers {
+#answer {
     display: flex;
     flex-direction: column;
     justify-content: center;

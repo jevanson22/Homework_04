@@ -1,13 +1,26 @@
 var timeLeft = 75
 var timerDisplay = document.getElementById("timerDisplay");
+
+var startEl = document.getElementById("rulesAndQues");
+
 var question = document.getElementById("question");
+
 var answer1 = document.getElementById("answer1");
 var answer2 = document.getElementById("answer2");
 var answer3 = document.getElementById("answer3");
 var answer4 = document.getElementById("answer4");
-var startEl = document.getElementById("rulesAndQues");
+
 var ques1El = document.getElementById("question1");
 var ques2El = document.getElementById("question2");
+var ques3El = document.getElementById("question3");
+var ques4El = document.getElementById("question4");
+var ques5El = document.getElementById("question5");
+var ques6El = document.getElementById("question6");
+var ques7El = document.getElementById("question7");
+var ques8El = document.getElementById("question8");
+var ques9El = document.getElementById("question9");
+var ques10El = document.getElementById("question10");
+
 var answerBtns = document.querySelectorAll(".answer")
 
 
@@ -57,7 +70,7 @@ for (i=0; i<4; i++){
 //};
 
 var quizQuestion= [ 
-{quesNum:0,question:"s will be written in this stQuestionyle",answer1:"Answer 1",answer2:"Answer 2",answer3:"Answer 3",answer4:"Answer 4",noTimePenalty:"answer2"},   
+{quesNum:0,question:"Questions will be written in this style",answer1:"Answer 1",answer2:"Answer 2",answer3:"Answer 3",answer4:"Answer 4",noTimePenalty:"answer2"},   
 {quesNum:1,question:"What does the G in GNU stand for?",answer1:"GNU's Not Unix",answer2:"General Network Unifier",answer3:"General Network Unicode",answer4:"Group of Nine Unicorns",noTimePenalty:"answer1"},
 {quesNum:2,question:"The oldest written language is?",answer1:"Egyptian",answer2:"Sumerian",answer3:"Greek",answer4:"Sanskirt",noTimePenalty:"answer2"},
 {quesNum:3,question:"Sumerian writing system is known as?",answer1:"Heiroglyphics",answer2:"Runes",answer3:"Cuneiform",answer4:"Ziggurat",noTimePenalty:"answer3"},
